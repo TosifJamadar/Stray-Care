@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.raw-container {
+  background-color: #0101017b;
+
+}
+
+.home-container{
+  background-image: url('/img/bg1.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  overflow-y: scroll;
+}
